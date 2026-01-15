@@ -23,6 +23,7 @@ class SumProgram
         int n = 10;
 
         int sumTotal = Sum(int a, int b, int n);
+        Console.WriteLine("The natural numbers below {0} that are multiples of {1} or {2}, if we add these, the sum of these multiples is {3}.", n, a, b, sumTotal);
     }
 
         
